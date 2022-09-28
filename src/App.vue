@@ -1,14 +1,13 @@
 /* eslint-disable */
 <template>
-  <login />
+  <LogIn />
 </template>
 
 <script>
-import login from "./components/Log-in.vue";
-
+import LogIn from "./components/LogIn.vue";
 export default {
   name: "App",
-  components: { login },
+  components: { LogIn },
 };
 </script>
 
